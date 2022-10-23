@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--기기에 맞게 화면 조절, device에 맞는 width, 비율은 1 -->
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- 폰트 START-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <!-- 폰트 END -->
+    
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <section id="main" class="mx-auto mt-5 py-5"><!--mx-auto는 bootstrap 에서 제공해주는 margin 값 auto로 해주는 class, mt는 marginTop, py = Padding Y축 전체(pb,pt) -->
+        <h3> MBTI 유형 테스트 </h3>
+
+        <div class="col-lg-6 col-md-8 col-sm-10 col-mx-auto"> <!-- col-6는 container class를 12등분한것중 6개칸 차이하는 그리드 의미 ==> 12등분중 6개칸크기에 이미지 할당-->
+          <img src="./img/main.png" alt="mainImage" class = "img-fluid"> <!-- 이미지 감싸고 있는 div 클래스 크기에 맞게 따라간다는 의미(col-6따라감)-->
+        </div>
+
+        <p> 임시 문단 </p>
+        <button type="button" class="btn btn-outline-danger mt-2 mb-2"> 시작하기</button>
+      </section>
+
+      <section id="QnA">
+
+      </section>
+
+      <section id="result">
+
+      </section>
+    </div>
+  </body>
+</html>

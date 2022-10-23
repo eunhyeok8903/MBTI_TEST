@@ -1,0 +1,10 @@
+body{
+  background-color: pink;
+}
+
+*{
+   /* '*'은 모든 선택자에 적용하겠다는 의미*/
+   /* html에 폰트 참조 링크 걸고, CSS에서도 적용해줘야함 */
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
